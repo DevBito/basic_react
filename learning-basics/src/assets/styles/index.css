@@ -1,13 +1,35 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.home {
+    padding: 20px;
+    text-align: center;
+  }
+  
+.sobre {
+    padding: 20px;
+    text-align: center;
+  }
+
+.contatos {
+    padding: 20px;
+    text-align: center;
+}
+
+.blog {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Defina um separador de seção */
+.separator {
+  margin-top: 20px; /* Espaço acima do elemento */
+}
+
+/* Se preferir espaçamento entre elementos em um container */
+.container {
+  display: flex;
+  flex-direction: column; /* Organiza os elementos em coluna */
+  gap: 20px;              /* Espaçamento entre os elementos */
 }

@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;                 /* Utiliza Flexbox para alinhar os itens */
+    align-items: center;           /* Centraliza verticalmente os itens */
+    justify-content: space-evenly;/* Distribui o espaço entre os itens */
+    background-color: #333;        /* Cor de fundo da Navbar */
+    padding: 0.5rem 1rem;          /* Espaçamento interno */
+  }
+  
+  /* Estilo dos links dentro da Navbar */
+  .navbar a {
+    color: #fff;                   /* Cor do texto */
+    text-decoration: none;         /* Remove sublinhado */
+    margin: 0 1rem;                /* Espaçamento lateral entre links */
+    transition: color 0.3s ease;   /* Transição suave na mudança de cor */
+  }
+  
+  /* Efeito de hover para os links */
+  .navbar a:hover {
+    color: #f0f0f0;                /* Cor alterada quando o mouse passa por cima */
+  }
+  
+  
